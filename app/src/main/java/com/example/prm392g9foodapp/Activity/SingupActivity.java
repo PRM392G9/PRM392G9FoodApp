@@ -20,10 +20,10 @@ public class SingupActivity extends BaseActivity {
         binding = ActivitySingupBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setVaribale();
+        setVariable();
     }
 
-    private void setVaribale() {
+    private void setVariable() {
         binding.singupBtn.setOnClickListener(v -> {
             String email=binding.userEdt.getText().toString();
             String password=binding.passEdt.getText().toString();

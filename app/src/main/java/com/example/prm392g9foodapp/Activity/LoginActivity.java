@@ -18,10 +18,10 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        setVaribale();
+        setVariable();
 
     }
-    private void setVaribale()
+    private void setVariable()
     {
         binding.loginBtn.setOnClickListener(v -> {
             String email=binding.userEdt.getText().toString();

@@ -145,7 +145,7 @@ private ActivityMainBinding binding;
                     {
                         list.add(issue.getValue(Foods.class));
                     }
-                    if(list.size()>0)
+                    if(!list.isEmpty())
                     {
                         binding.bestFoodView.setLayoutManager(new LinearLayoutManager(MainActivity.this,LinearLayoutManager.HORIZONTAL,false));
                         RecyclerView.Adapter adapter = new BestFoodsAdapter(list);
@@ -174,7 +174,7 @@ private ActivityMainBinding binding;
                     {
                         list.add(issue.getValue(Category.class));
                     }
-                    if(list.size()>0)
+                    if(!list.isEmpty())
                     {
                         binding.categoryView.setLayoutManager(new GridLayoutManager(MainActivity.this, 4));
                         RecyclerView.Adapter adapter = new CategoryAdapter(list);
