@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1055652576762",
+    "firebase_url": "https://prm392g9foodapp-default-rtdb.firebaseio.com",
+    "project_id": "prm392g9foodapp",
+    "storage_bucket": "prm392g9foodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055652576762:android:516b8843dc6045c92d3843",
+        "android_client_info": {
+          "package_name": "com.example.prm392g9foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055652576762-q3i4pk3f40us88ugcuu1e8nentnaarkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB42XrQfT0hexmrcrcTaGCDUrvjDSAyp0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055652576762-q3i4pk3f40us88ugcuu1e8nentnaarkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
